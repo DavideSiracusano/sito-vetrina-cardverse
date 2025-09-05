@@ -115,14 +115,22 @@ footer {
 
 @media (max-width: 768px) {
   .cards {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
   }
   .cards img {
     max-width: 180px;
     height: auto;
+    margin: auto 50px;
   }
+
+  .cards figcaption {
+    font-size: 1rem;
+    text-align: center;
+  }
+
   footer {
     padding: 15px 5px;
     font-size: 0.95rem;
