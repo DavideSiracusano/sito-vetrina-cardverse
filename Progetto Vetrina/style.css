@@ -113,6 +113,12 @@ header {
   cursor: pointer;
 }
 
+figcaption {
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 footer address {
   display: flex;
   justify-content: space-between;
@@ -212,6 +218,7 @@ footer address {
     align-items: center;
     gap: 20px;
     text-align: center;
+  }
 
   #newsletter,
   #contacts {
