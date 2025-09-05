@@ -93,10 +93,9 @@ a {
 }
 
 .cards img {
-  width: 200px;
+  width: auto;
   height: 200px;
   border-radius: 10px;
-  border: 2px solid #eeba0b;
   box-shadow: 0 2px 8px rgba(238, 186, 11, 0.2);
 }
 
