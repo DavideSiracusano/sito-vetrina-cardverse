@@ -1,3 +1,7 @@
+<img width="1898" height="892" alt="image" src="https://github.com/user-attachments/assets/160a3dda-efdd-4293-8c7b-cb274c028b11" />
+
+## Progetto Vetrina HTML e CSS corso Frontend Riverloop
+
 # Cardverse - Sito Vetrina Carte Collezionabili
 
 Benvenuto su **Cardverse**, il sito vetrina dedicato agli appassionati di carte collezionabili Pokémon, Yu-Gi-Oh! e Magic. Qui puoi scoprire le ultime uscite, le carte più in evidenza e tutte le novità dal mondo delle collezioni!
@@ -6,10 +10,6 @@ Benvenuto su **Cardverse**, il sito vetrina dedicato agli appassionati di carte 
 
 - **home.index.html**  
   Pagina principale con presentazione, navbar e anteprima dei nuovi set.
-
-<img width="1898" height="892" alt="image" src="https://github.com/user-attachments/assets/160a3dda-efdd-4293-8c7b-cb274c028b11" />
-
-## Progetto Vetrina HTML e CSS corso Frontend Riverloop
 
 - **nuoveUscite.html**  
   Sezione dedicata alle ultime carte aggiunte.
