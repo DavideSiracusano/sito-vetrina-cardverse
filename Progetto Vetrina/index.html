@@ -2,8 +2,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>In Evidenza</title>
-    <link rel="stylesheet" href="inEvidenzaStyle.css" />
+    <title>Cardverse</title>
+    <link rel="stylesheet" href="homeStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap"
       rel="stylesheet"
@@ -12,42 +14,52 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail"
     />
+    <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
   </head>
+
   <body>
     <header>
-      <h1>Carte Collezionabili in Evidenza</h1>
+      <h1>Cardverse</h1>
+      <nav class="navbar">
+        <!-- Checkbox nascosto -->
+        <input type="checkbox" id="burger-toggle" class="burger-toggle" />
+        <label for="burger-toggle" class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="nuoveUscite.html">Nuove Uscite</a></li>
+          <li><a href="inEvidenza.html">In Evidenza</a></li>
+          <li><a href="#">Categorie</a></li>
+          <li><a href="./chiSiamo.html">Chi Siamo</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero-title">Scopri le carte più rare e ricercate!</div>
-        <div class="hero-description">
-          Una selezione delle carte collezionabili più amate dai nostri utenti.
-        </div>
-      </section>
+    <main class="hero">
       <section>
-        <div class="cards">
-          <figure>
-            <img src="./assets/charizard.png" alt="Carta Pokémon Charizard" />
-            <figcaption>Charizard - Pokémon</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="./assets/darkMagician.png"
-              alt="Carta Yu-Gi-Oh! Mago Nero"
-            />
-            <figcaption>Mago Nero - Yu-Gi-Oh!</figcaption>
-          </figure>
-          <figure>
-            <img src="./assets/arcanine.png" alt="Carta Arcanine" />
-            <figcaption>Arcanine - Pokémon</figcaption>
-          </figure>
-        </div>
+        <h2 class="hero-title">Benvenuto su Cardverse</h2>
+        <p class="hero-description">Scopri in anteprima i nuovi set!</p>
       </section>
-      <button>
-        <a href="./index.html">Torna alla Home</a>
-      </button>
+      <section class="cards">
+        <figure>
+          <img src="./assets/set-1.webp" alt="set pokemon y nuovo" />
+          <figcaption>Set Pokémon Y - Edizione nuova "05/09/2025"</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assets/tin-2.png" alt="set yugioh nuovo" />
+          <figcaption>Set Yu-Gi-Oh! - Edizione nuova "01/09/2025"</figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assets/set-3.webp" alt="set pokemon x nuovo" />
+          <figcaption>Set Pokémon X - Edizione nuova "05/09/2025"</figcaption>
+        </figure>
+      </section>
     </main>
 
     <footer>
