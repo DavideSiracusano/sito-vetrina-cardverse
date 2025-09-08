@@ -2,6 +2,9 @@
 
 ## Progetto Vetrina HTML e CSS corso Frontend Riverloop
 
+## sito online: https://DavideSiracusano.github.io/sito-vetrina-cardverse/
+
+
 # Cardverse - Sito Vetrina Carte Collezionabili
 
 Benvenuto su **Cardverse**, il sito vetrina dedicato agli appassionati di carte collezionabili Pokémon, Yu-Gi-Oh! e Magic. Qui puoi scoprire le ultime uscite, le carte più in evidenza e tutte le novità dal mondo delle collezioni!
